@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#087f5b" />
+  <meta name="description" content="Shaffay Pharmacy Khanpur — pharmacy and healthcare essentials. Contact us for product availability and orders." />
+  <title>Shaffay Pharmacy Khanpur | Your Health, Our Priority</title>
+  <style>
+    :root{--green:#087f5b;--green-dark:#075b43;--mint:#e9f8f1;--ink:#18352d;--muted:#667a73;--line:#e3eee8;--white:#fff;--gold:#f3c969}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fbfdfc;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    .topbar{background:var(--green-dark);color:#e9fff6;font-size:13px;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:-.5px}.logo{width:46px;height:46px;background:var(--green);color:#fff;border-radius:15px;display:grid;place-items:center;font-size:25px;box-shadow:0 8px 18px #087f5b2b}.brand small{display:block;color:var(--muted);font-size:11px;letter-spacing:1.8px;text-transform:uppercase;font-weight:700}
+    nav{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:650}nav a:hover{color:var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--green);color:white;padding:12px 18px;border-radius:12px;font-weight:750;border:0;cursor:pointer;transition:.2s}.btn:hover{background:var(--green-dark);transform:translateY(-1px)}.btn-outline{background:white;color:var(--green);border:1px solid #b7e2d0}.btn-outline:hover{color:white}.menu{display:none;background:white;border:1px solid var(--line);border-radius:10px;padding:8px 12px;font-size:20px}
+    .hero{padding:74px 0 62px;background:radial-gradient(circle at 83% 18%,#d6f4e6 0,transparent 28%),linear-gradient(130deg,#f2fbf6,#fff 62%);overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:48px}.eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--green);background:#e1f6eb;padding:7px 12px;border-radius:99px;font-size:12px;font-weight:850;letter-spacing:1px;text-transform:uppercase}.dot{height:8px;width:8px;background:#20a66f;border-radius:50%}
+    h1{font-size:clamp(38px,5.2vw,62px);line-height:1.08;letter-spacing:-2.3px;margin:20px 0 18px;color:#143b30}h1 span{color:var(--green)}.lead{font-size:17px;color:var(--muted);max-width:540px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:26px;color:#547167;font-size:13px;font-weight:650}.trust span{display:flex;align-items:center;gap:7px}
+    .visual{position:relative;min-height:390px;display:grid;place-items:center}.visual-card{width:min(390px,100%);background:#fff;border:1px solid #e0f0e7;border-radius:28px;padding:26px;box-shadow:0 28px 70px #0b69441a;position:relative;z-index:2}.visual-head{display:flex;align-items:center;justify-content:space-between}.visual-head strong{font-size:15px}.pill{background:#e5f8ed;color:var(--green);font-size:11px;font-weight:800;padding:6px 10px;border-radius:99px}.cross-art{height:150px;border-radius:22px;background:linear-gradient(135deg,#e0f8eb,#f7fffa);display:grid;place-items:center;margin:22px 0;position:relative;overflow:hidden}.cross{font-size:100px;font-weight:300;color:var(--green);line-height:1}.cross:before{content:"+";font-family:Arial,sans-serif}.cross:after{content:"";display:none}.mini-list{display:grid;gap:12px}.mini-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid #eef4f0}.mini-row:last-child{border:0}.mini-icon{width:38px;height:38px;border-radius:12px;background:#f0faf4;display:grid;place-items:center;font-size:19px}.mini-row strong{display:block;font-size:13px}.mini-row small{color:var(--muted);font-size:11px}.floating{position:absolute;background:white;padding:14px 17px;border-radius:16px;box-shadow:0 14px 35px #0b69441a;z-index:3;font-size:13px;font-weight:800}.float-one{top:28px;right:0}.float-two{bottom:24px;left:0}.float-icon{font-size:22px;margin-right:6px}
+    section{padding:68px 0}.section-head{text-align:center;max-width:650px;margin:0 auto 35px}.kicker{font-size:12px;color:var(--green);text-transform:uppercase;letter-spacing:2px;font-weight:850}.section-head h2{font-size:clamp(28px,3.5vw,40px);line-height:1.2;letter-spacing:-1px;margin:10px 0}.section-head p{color:var(--muted);margin:0}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{background:#fff;border:1px solid var(--line);border-radius:20px;padding:25px;box-shadow:0 8px 25px #1c65470a}.feature-icon{width:52px;height:52px;border-radius:16px;background:var(--mint);display:grid;place-items:center;font-size:25px}.feature h3{margin:16px 0 7px;font-size:18px}.feature p{margin:0;color:var(--muted);font-size:14px}
+    .products{background:#f3faf6}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:white;border:1px solid var(--line);border-radius:18px;padding:20px}.product-emoji{height:94px;background:#f0faf4;border-radius:14px;display:grid;place-items:center;font-size:42px;margin-bottom:15px}.product h3{font-size:15px;margin:0 0 5px}.product p{font-size:12px;color:var(--muted);margin:0 0 14px}.product a{font-size:13px;font-weight:800;color:var(--green)}
+    .notice{display:flex;gap:14px;align-items:flex-start;background:#fff8e8;border:1px solid #f6e2ac;border-radius:16px;padding:18px 20px;color:#6d5624;font-size:13px;margin-top:24px}.notice strong{display:block;margin-bottom:3px}
+    .order-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:35px;align-items:start}.order-copy h2{font-size:38px;line-height:1.15;letter-spacing:-1px;margin:12px 0}.order-copy p{color:var(--muted)}.steps{display:grid;gap:15px;margin-top:25px}.step{display:flex;gap:13px;align-items:flex-start}.step-num{flex:0 0 34px;height:34px;border-radius:11px;background:var(--mint);color:var(--green);display:grid;place-items:center;font-weight:850}.step strong{display:block;font-size:14px}.step small{color:var(--muted)}
+    form{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 15px 45px #1c65470b}.form-title{font-size:20px;font-weight:850;margin:0 0 5px}.form-sub{font-size:13px;color:var(--muted);margin:0 0 20px}.field-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:grid;gap:6px;margin-bottom:14px}.field label{font-size:12px;font-weight:800;color:#36574b}.field input,.field textarea,.field select{width:100%;padding:12px 13px;border:1px solid #dbe9e1;border-radius:11px;font:inherit;font-size:14px;background:#fcfefd;outline:none}.field input:focus,.field textarea:focus{border-color:#58b891;box-shadow:0 0 0 3px #e0f6eb}.field textarea{min-height:92px;resize:vertical}.form-note{font-size:11px;color:var(--muted);margin:10px 0 0}
+    .contact{background:#073f30;color:#fff}.contact .section-head h2{color:#fff}.contact .section-head p{color:#c3e1d4}.contact-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.contact-card{border:1px solid #ffffff2a;background:#ffffff0a;border-radius:18px;padding:22px}.contact-card span{font-size:25px}.contact-card h3{font-size:15px;margin:10px 0 4px}.contact-card p{font-size:13px;color:#c3e1d4;margin:0}.contact-card a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+    footer{background:#052e23;color:#a8cabc;padding:22px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.foot strong{color:white}.wa-float{position:fixed;right:18px;bottom:18px;z-index:20;border-radius:99px;box-shadow:0 10px 28px #075b4340;padding:13px 18px}
+    @media(max-width:850px){nav{gap:13px}.hero-grid{gap:20px}.product-grid{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(2,1fr)}.order-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:650px){.topbar .wrap{justify-content:center;text-align:center}.nav{min-height:68px}nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch}.nav.open nav{display:flex}.nav .btn{display:none}.menu{display:block}.hero{padding:48px 0}.hero-grid{grid-template-columns:1fr}.visual{min-height:350px}.float-one{right:0;top:8px}.float-two{left:0;bottom:8px}section{padding:52px 0}.features,.contact-cards{grid-template-columns:1fr}.order-grid{grid-template-columns:1fr}.field-grid{grid-template-columns:1fr;gap:0}.section-head{text-align:left}.product-grid{gap:12px}.product{padding:13px}.product-emoji{height:78px}h1{letter-spacing:-1.4px}.wa-float{right:12px;bottom:12px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="wrap"><span>✦ Your health, our priority</span><span>Serving Khanpur • Ask us about product availability</span></div></div>
+  <header>
+    <div class="wrap nav" id="nav">
+      <a class="brand" href="#home" aria-label="Shaffay Pharmacy home"><span class="logo">✚</span><span>Shaffay Pharmacy<small>Khanpur • Healthcare</small></span></a>
+      <nav aria-label="Main navigation"><a href="#services">Our Services</a><a href="#products">Categories</a><a href="#order">Place an Order</a><a href="#contact">Contact</a></nav>
+      <a class="btn" href="#order">Order / Enquire <span>↗</span></a>
+      <button class="menu" aria-label="Toggle menu" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><span class="dot"></span> Pharmacy & Healthcare Essentials</div>
+          <h1>Care you can trust.<br><span>Health comes first.</span></h1>
+          <p class="lead">Welcome to Shaffay Pharmacy Khanpur. Explore healthcare essentials and contact us to check availability or place an order with our team.</p>
+          <div class="hero-actions"><a class="btn" href="#order">🛒 Place an Order</a><a class="btn btn-outline" href="#contact">Contact the Pharmacy</a></div>
+          <div class="trust"><span>✓ Friendly service</span><span>✓ Product availability checks</span><span>✓ Convenient enquiries</span></div>
+        </div>
+        <div class="visual" aria-label="Pharmacy illustration">
+          <div class="floating float-one"><span class="float-icon">🩺</span>Care starts here</div>
+          <div class="visual-card">
+            <div class="visual-head"><strong>Your health essentials</strong><span class="pill">PHARMACY</span></div>
+            <div class="cross-art"><div class="cross"></div></div>
+            <div class="mini-list">
+              <div class="mini-row"><div class="mini-icon">💊</div><div><strong>Medicines</strong><small>Ask about availability</small></div></div>
+              <div class="mini-row"><div class="mini-icon">🩹</div><div><strong>First-aid essentials</strong><small>Everyday care items</small></div></div>
+              <div class="mini-row"><div class="mini-icon">🧴</div><div><strong>Personal care</strong><small>Health and hygiene</small></div></div>
+            </div>
+          </div>
+          <div class="floating float-two"><span class="float-icon">🌿</span>Health • Care • Community</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">How we can help</div><h2>Everyday healthcare, made simpler</h2><p>Contact us for product information, availability and help with your order.</p></div>
+        <div class="features">
+          <article class="feature"><div class="feature-icon">💊</div><h3>Medicine enquiries</h3><p>Send us the medicine name and strength to ask whether it is available. Availability must be confirmed by the pharmacy.</p></article>
+          <article class="feature"><div class="feature-icon">🛍️</div><h3>Easy ordering</h3><p>Share your request through the order form and continue via WhatsApp once the shop contact number is added.</p></article>
+          <article class="feature"><div class="feature-icon">🧴</div><h3>Health & personal care</h3><p>Ask about first-aid supplies, hygiene products and other everyday healthcare essentials.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">Browse categories</div><h2>What are you looking for?</h2><p>These are example categories. Please confirm actual stock and prices with the pharmacy.</p></div>
+        <div class="product-grid">
+          <article class="product"><div class="product-emoji">💊</div><h3>Medicines</h3><p>Prescription and over-the-counter products, subject to applicable rules.</p><a href="#order" data-category="Medicines">Ask about availability →</a></article>
+          <article class="product"><div class="product-emoji">🩹</div><h3>First Aid</h3><p>Dressings and everyday first-aid supplies.</p><a href="#order" data-category="First Aid">Ask about availability →</a></article>
+          <article class="product"><div class="product-emoji">🧴</div><h3>Personal Care</h3><p>Personal hygiene and care essentials.</p><a href="#order" data-category="Personal Care">Ask about availability →</a></article>
+          <article class="product"><div class="product-emoji">🌡️</div><h3>Health Devices</h3><p>Ask about thermometers and other basic health devices.</p><a href="#order" data-category="Health Devices">Ask about availability →</a></article>
+        </div>
+        <div class="notice"><span>⚕️</span><div><strong>Important medicine safety notice</strong>Use medicines as directed by a qualified healthcare professional. Prescription medicines are supplied only in accordance with applicable laws. This website does not provide medical diagnosis or emergency services.</div></div>
+      </div>
+    </section>
+
+    <section id="order">
+      <div class="wrap order-grid">
+        <div class="order-copy"><div class="kicker">Order & enquiries</div><h2>Tell us what you need.</h2><p>Fill in the details below. The website will prepare a WhatsApp message for you. Before publishing, add the pharmacy's real WhatsApp number in the website settings near the bottom of this file.</p>
+          <div class="steps"><div class="step"><span class="step-num">1</span><div><strong>Share your request</strong><small>Enter the product name and quantity you need.</small></div></div><div class="step"><span class="step-num">2</span><div><strong>Confirm availability</strong><small>The pharmacy confirms stock, price and any requirements.</small></div></div><div class="step"><span class="step-num">3</span><div><strong>Agree on collection or delivery</strong><small>Delivery options and charges must be confirmed directly.</small></div></div></div>
+        </div>
+        <form id="orderForm">
+          <h3 class="form-title">Order / Enquiry Form</h3><p class="form-sub">No payment is collected on this demo website.</p>
+          <div class="field-grid"><div class="field"><label for="customer">Your name *</label><input id="customer" required placeholder="Enter your name" /></div><div class="field"><label for="phone">Your phone number *</label><input id="phone" required type="tel" placeholder="03XX XXXXXXX" /></div></div>
+          <div class="field"><label for="item">Medicine / product name *</label><input id="item" required placeholder="Enter product name and strength if known" /></div>
+          <div class="field-grid"><div class="field"><label for="quantity">Quantity</label><input id="quantity" placeholder="e.g. 1 pack" /></div><div class="field"><label for="method">Preference</label><select id="method"><option>Confirm availability</option><option>Store collection</option><option>Ask about delivery</option></select></div></div>
+          <div class="field"><label for="notes">Additional details (optional)</label><textarea id="notes" placeholder="Any extra information (avoid sharing sensitive medical details)"></textarea></div>
+          <button class="btn" type="submit" style="width:100%">Continue to WhatsApp ↗</button>
+          <p class="form-note">Submitting opens WhatsApp with your message. Your request is not sent until you press Send in WhatsApp.</p>
+          <p id="formStatus" role="status" class="form-note"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker" style="color:#93e4bd">Get in touch</div><h2>Visit or contact Shaffay Pharmacy</h2><p>Contact details below are placeholders until you provide the shop's official phone number and address.</p></div>
+        <div class="contact-cards">
+          <div class="contact-card"><span>📍</span><h3>Our location</h3><p>Khanpur, District Rahim Yar Khan, Punjab, Pakistan<br><small>Replace with the exact shop address before publishing.</small></p></div>
+          <div class="contact-card"><span>📞</span><h3>Call the pharmacy</h3><p><a href="tel:+923084770517">0308 4770517</a><br><a href="tel:+923083166478">0308 3166478</a></p></div>
+          <div class="contact-card"><span>💬</span><h3>WhatsApp orders</h3><p><a href="https://wa.me/923084770517" target="_blank" rel="noopener">WhatsApp: 0308 4770517</a><br><small>WhatsApp orders open on the first number.</small></p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap foot"><span>© <span id="year"></span> <strong>Shaffay Pharmacy Khanpur</strong>. All rights reserved.</span><span>Healthcare information is general only; consult a qualified professional.</span></div></footer>
+  <a class="btn wa-float" href="#order" aria-label="Place a WhatsApp order">💬 Order / Enquire</a>
+
+  <script>
+    // SETUP REQUIRED: Replace the placeholder below with the pharmacy's WhatsApp number,
+    // including country code and digits only (Pakistan example: 923001234567).
+    const PHARMACY_WHATSAPP_NUMBER = "923084770517";
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.querySelectorAll("[data-category]").forEach(link => link.addEventListener("click", () => {
+      document.getElementById("item").value = link.dataset.category;
+    }));
+    document.getElementById("orderForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const number = PHARMACY_WHATSAPP_NUMBER.replace(/\D/g, "");
+      if (!number || number.includes("XXXXXXXXXX") || number.length < 10) {
+        document.getElementById("formStatus").textContent = "Demo setup: please add the pharmacy's real WhatsApp number in the code before using live orders.";
+        alert("This demo website needs the pharmacy's real WhatsApp number before orders can be sent.");
+        return;
+      }
+      const message = [
+        "Shaffay Pharmacy Khanpur — Order / Enquiry",
+        "Name: " + document.getElementById("customer").value,
+        "Customer phone: " + document.getElementById("phone").value,
+        "Product: " + document.getElementById("item").value,
+        "Quantity: " + (document.getElementById("quantity").value || "Not specified"),
+        "Preference: " + document.getElementById("method").value,
+        "Additional details: " + (document.getElementById("notes").value || "None")
+      ].join("\n");
+      window.open("https://wa.me/" + number + "?text=" + encodeURIComponent(message), "_blank", "noopener");
+    });
+  </script>
+</body>
+</html>
